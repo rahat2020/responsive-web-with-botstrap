@@ -5,6 +5,7 @@
     background-color: #2A1E59;
     color: white;
     border: none;
+    border-radius: 10px;
 }
 
 .float{
@@ -15,7 +16,32 @@
     
     
 }
+.panda-pic, .footer-color{
+    background-color: #F8F9FA
+    ;
+    border-radius: 1em;
+}
 
 .width{
     width: 50px;
+}
+.footer-social  {
+    color: rgb(243, 29, 29);
+    font-size: 24px;
+    text-align: center;
+
+}
+
+@media (max-width:992px){
+    .footer-top{
+        text-align: center;
+    }
+}
+
+@media (max-width:668px){
+    .footer-top{
+        text-align: center;
+    }
+
+
 }
